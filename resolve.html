@@ -71,25 +71,21 @@
 			<div class="row">
 				<div class="col-md-8">
 					<h2 class="page-heading">Contact Us</h2>
-					<form role="form">
-							<div class="form-group">
-								<label>Name</label>
-								<input type="text" class="form-control" placeholder="Enter name">
-							  </div>	
-							  <div class="form-group">
-								<label>Phone Number</label>
-								<input type="text" class="form-control" placeholder="Enter phone">
-							  </div>	
-							  <div class="form-group">
-								<label>Email address</label>
-								<input type="email" class="form-control" placeholder="Enter email">
-							  </div>
-								<div class="form-group">
-								<label>Message</label>
-								<textarea class="form-control" rows="5"></textarea>
-							  </div>
-							  <button type="submit" class="btn btn-primary">Submit</button>
-						</form>
+					<form role="form" action="mail.php" method="POST">
+			            <div class="form-group">
+			              <label for="contact-name" class="control-label">Name</label>
+			              <input type="text" class="form-control" name="name" placeholder="Enter name">
+			            </div>    
+			            <div class="form-group">
+			              <label for="contact-email" class="control-label">Email address</label>
+			              <input type="email" class="form-control" name="email" placeholder="Enter email">
+			            </div>
+			            <div class="form-group">
+			              <label for="contact-message" class="control-label">Message</label>
+			              <textarea class="form-control" rows="5"></textarea>
+			            </div>
+			            <button type="submit" value="send" class="button-full-small">Submit</button> <button type="reset" value="clear" class="button-full-small">Clear</button>
+          			</form>
 				</div>
 				<div class="col-md-4">
 					<div class="block block-primary-head no-pad">
