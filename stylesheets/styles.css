@@ -8207,3 +8207,97 @@ button.close {
   }
 }
 /* Layout Colors */
+/* Nav Color */
+/* line 4, ../sass/layout/_nav.scss */
+.navbar-default {
+  background-color: #87A644;
+  border: 0;
+  -moz-box-shadow: #BBB4B4 1px 1px 10px;
+  -webkit-box-shadow: #BBB4B4 1px 1px 10px;
+  box-shadow: #BBB4B4 1px 1px 10px;
+}
+/* line 8, ../sass/layout/_nav.scss */
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+/* line 10, ../sass/layout/_nav.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+/* line 12, ../sass/layout/_nav.scss */
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+/* line 16, ../sass/layout/_nav.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+  font-weight: 600;
+  border-right: solid 1px #BBB4B4;
+}
+/* line 20, ../sass/layout/_nav.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #333333;
+}
+/* line 24, ../sass/layout/_nav.scss */
+.navbar-default .navbar-nav > li:last-child > a {
+  color: #ffffff;
+  font-weight: 600;
+  border: none;
+}
+/* line 28, ../sass/layout/_nav.scss */
+.navbar-default .navbar-nav > li:last-child > a:hover, .navbar-default .navbar-nav > li:last-child > a:focus {
+  color: #ffffff;
+  background-color: #333333;
+}
+/* line 32, ../sass/layout/_nav.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #333333;
+}
+/* line 36, ../sass/layout/_nav.scss */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #333333;
+}
+/* line 39, ../sass/layout/_nav.scss */
+.navbar-default .navbar-toggle {
+  border-color: #333333;
+}
+/* line 41, ../sass/layout/_nav.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #333333;
+}
+/* line 43, ../sass/layout/_nav.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+/* line 45, ../sass/layout/_nav.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+/* line 48, ../sass/layout/_nav.scss */
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+/* line 50, ../sass/layout/_nav.scss */
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  /* line 54, ../sass/layout/_nav.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  /* line 56, ../sass/layout/_nav.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  /* line 59, ../sass/layout/_nav.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #333333;
+  }
+}
