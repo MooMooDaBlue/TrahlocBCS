@@ -49,7 +49,7 @@ html[xmlns] .slides {display: block;}
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {display: block;}
+/* .no-js .slides > li:first-child {display: block;} */
 
 /* FlexSlider Default Theme
 *********************************/
