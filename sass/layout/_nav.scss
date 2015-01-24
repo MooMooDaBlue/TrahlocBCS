@@ -16,6 +16,7 @@
 			> a {
 				color: $white;
 				font-weight: 600;
+				text-transform: uppercase;
 				border-right: solid 1px $lightgray;
 				&:hover,  &:focus {
 					color: $white;
@@ -59,5 +60,13 @@
 			> a, > a:hover, > a:focus, {
 				color: $white;
 				background-color: $darkgray; }}}
+}
+
+
+@media (max-width:600px) {
+
+	.sec-spacer1, .mask {
+		display: none;
+	}
 }
 

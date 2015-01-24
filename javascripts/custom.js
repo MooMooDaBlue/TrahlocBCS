@@ -18,5 +18,8 @@ $(window).load(function() {
     animation: "slide",
     controlNav: "thumbnails"
   });
+  $('.carousel').carousel({
+        interval: 3000
+    })
 });
 

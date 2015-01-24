@@ -8232,73 +8232,80 @@ button.close {
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
   font-weight: 600;
+  text-transform: uppercase;
   border-right: solid 1px #BBB4B4;
 }
-/* line 20, ../sass/layout/_nav.scss */
+/* line 21, ../sass/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
   background-color: #333333;
 }
-/* line 24, ../sass/layout/_nav.scss */
+/* line 25, ../sass/layout/_nav.scss */
 .navbar-default .navbar-nav > li:last-child > a {
   color: #ffffff;
   font-weight: 600;
   border: none;
 }
-/* line 28, ../sass/layout/_nav.scss */
+/* line 29, ../sass/layout/_nav.scss */
 .navbar-default .navbar-nav > li:last-child > a:hover, .navbar-default .navbar-nav > li:last-child > a:focus {
   color: #ffffff;
   background-color: #333333;
 }
-/* line 32, ../sass/layout/_nav.scss */
+/* line 33, ../sass/layout/_nav.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #ffffff;
   background-color: #333333;
 }
-/* line 36, ../sass/layout/_nav.scss */
+/* line 37, ../sass/layout/_nav.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   color: #ffffff;
   background-color: #333333;
 }
-/* line 39, ../sass/layout/_nav.scss */
+/* line 40, ../sass/layout/_nav.scss */
 .navbar-default .navbar-toggle {
   border-color: #333333;
 }
-/* line 41, ../sass/layout/_nav.scss */
+/* line 42, ../sass/layout/_nav.scss */
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #333333;
 }
-/* line 43, ../sass/layout/_nav.scss */
+/* line 44, ../sass/layout/_nav.scss */
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #ffffff;
 }
-/* line 45, ../sass/layout/_nav.scss */
+/* line 46, ../sass/layout/_nav.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-color: #ffffff;
 }
-/* line 48, ../sass/layout/_nav.scss */
+/* line 49, ../sass/layout/_nav.scss */
 .navbar-default .navbar-link {
   color: #ffffff;
 }
-/* line 50, ../sass/layout/_nav.scss */
+/* line 51, ../sass/layout/_nav.scss */
 .navbar-default .navbar-link:hover {
   color: #ffffff;
 }
 
 @media (max-width: 767px) {
-  /* line 54, ../sass/layout/_nav.scss */
+  /* line 55, ../sass/layout/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #ffffff;
   }
-  /* line 56, ../sass/layout/_nav.scss */
+  /* line 57, ../sass/layout/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #ffffff;
   }
-  /* line 59, ../sass/layout/_nav.scss */
+  /* line 60, ../sass/layout/_nav.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #ffffff;
     background-color: #333333;
+  }
+}
+@media (max-width: 600px) {
+  /* line 68, ../sass/layout/_nav.scss */
+  .sec-spacer1, .mask {
+    display: none;
   }
 }
 /* Dividers */
@@ -8323,7 +8330,7 @@ button.close {
   width: 100%;
   height: 25px;
   border-radius: 125px / 12px;
-  box-shadow: 0 0 8px black;
+  box-shadow: 0 0 8px #333333;
 }
 /* line 17, ../sass/modules/_sections.scss */
 .sec-spacer1 span {
@@ -8335,8 +8342,8 @@ button.close {
   left: 50%;
   margin-left: -25px;
   border-radius: 100%;
-  box-shadow: 0 2px 4px #999;
-  background: white;
+  box-shadow: 0 2px 4px #333333;
+  background: #87A644;
 }
 /* line 27, ../sass/modules/_sections.scss */
 .sec-spacer1 span i {
@@ -8346,11 +8353,11 @@ button.close {
   left: 4px;
   right: 4px;
   border-radius: 100%;
-  border: 1px dashed #aaa;
+  border: 1px solid #ffffff;
   text-align: center;
   line-height: 40px;
   font-style: normal;
-  color: #999;
+  color: #ffffff;
 }
 
 /* line 42, ../sass/modules/_sections.scss */
@@ -8363,4 +8370,53 @@ button.close {
 .sec-spacer3 {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+/* line 50, ../sass/modules/_sections.scss */
+.sec-spacer4 {
+  margin-bottom: 15px;
+}
+
+/* line 54, ../sass/modules/_sections.scss */
+.sec-spacer5 {
+  margin-top: 15px;
+}
+
+/* line 58, ../sass/modules/_sections.scss */
+.sec-spacer6 {
+  display: inline-block;
+  margin-top: 65px;
+  margin-left: 100px;
+  width: 100px;
+  position: relative;
+}
+/* line 63, ../sass/modules/_sections.scss */
+.sec-spacer6 .mask {
+  overflow: hidden;
+  width: 20px;
+  height: 75px;
+}
+/* line 66, ../sass/modules/_sections.scss */
+.sec-spacer6.right .mask:before {
+  content: '';
+  display: block;
+  margin-left: 20px;
+  width: 20px;
+  height: 100%;
+  border-radius: 12px / 125px;
+  box-shadow: 0 0 8px #333333;
+}
+
+/* line 1, ../sass/modules/_buttons.scss */
+.main-logo, .payment-btn {
+  display: inline-block;
+  vertical-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  float: none;
+}
+
+/* line 9, ../sass/modules/_buttons.scss */
+.payment-btn {
+  padding-top: 4em;
 }
